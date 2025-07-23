@@ -28,7 +28,9 @@ npm install
 npm run dev -->
 
 ## 📁 Project Structure
+```
 src/
 ├── app/          # Pages (home, about, contact, etc.)
 ├── components/   # UI components like Header, Footer
 ├── hooks/        # Custom hooks
+```
