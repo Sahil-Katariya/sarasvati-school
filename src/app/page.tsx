@@ -22,7 +22,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Nurturing young minds with excellence in education. From Pre-Primary to Class 8,
-              we provide quality GSEB education that shapes tomorrow's leaders.
+              we provide quality GSEB education that shapes tomorrow&apos;s leaders.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -126,7 +126,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Expert Faculty</h3>
               <p className="text-gray-600">
                 Highly qualified and experienced teachers dedicated to nurturing
-                each student's potential and providing personalized attention.
+                each student&apos;s potential and providing personalized attention.
               </p>
             </div>
             <div className="card p-8 text-center">
@@ -183,7 +183,7 @@ export default function Home() {
               Ready to Join Our School Family?
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Take the first step towards your child's bright future. Apply today!
+              Take the first step towards your child&apos;s bright future. Apply today!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link

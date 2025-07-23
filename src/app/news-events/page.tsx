@@ -110,7 +110,7 @@ const holidays = [
   { date: "2024-10-02", name: "Gandhi Jayanti", type: "National Holiday" },
   { date: "2024-10-12", name: "Dussehra", type: "Religious Holiday" },
   { date: "2024-11-01", name: "Diwali", type: "Religious Holiday" },
-  { date: "2024-11-14", name: "Children's Day", type: "National Holiday" },
+  { date: "2024-11-14", name: "Children&apos;s Day", type: "National Holiday" },
   { date: "2024-12-25", name: "Christmas", type: "Religious Holiday" },
   { date: "2025-01-26", name: "Republic Day", type: "National Holiday" },
   { date: "2025-03-08", name: "Holi", type: "Religious Holiday" }

@@ -10,9 +10,7 @@ import {
   UserGroupIcon,
   AcademicCapIcon,
   CurrencyRupeeIcon,
-  ClockIcon,
-  CheckCircleIcon,
-  ExclamationCircleIcon
+  CheckCircleIcon
 } from '@heroicons/react/24/outline';
 
 const notices = [
@@ -83,8 +81,8 @@ const faqItems = [
     answer: "You can check your child&apos;s academic progress through the Parent Portal. Regular updates on assessments, test scores, and teacher comments are available. Additionally, report cards are issued at the end of each term, and parent-teacher meetings are scheduled periodically."
   },
   {
-    question: "What is the school's policy on attendance?",
-    answer: "Students are expected to maintain at least 85% attendance throughout the academic year. In case of absence, parents should inform the class teacher through a written note or email. For extended absences due to medical reasons, a doctor's certificate should be submitted."
+    question: "What is the school&apos;s policy on attendance?",
+    answer: "Students are expected to maintain at least 85% attendance throughout the academic year. In case of absence, parents should inform the class teacher through a written note or email. For extended absences due to medical reasons, a doctor&apos;s certificate should be submitted."
   },
   {
     question: "How can I pay the school fees?",
@@ -96,7 +94,7 @@ const faqItems = [
   },
   {
     question: "How can I meet my child&apos;s teacher?",
-    answer: "Teachers are available for meetings during designated visiting hours, which are typically from 3:00 PM to 4:00 PM on working days. It is advisable to schedule an appointment through the school office or via email to ensure the teacher's availability."
+    answer: "Teachers are available for meetings during designated visiting hours, which are typically from 3:00 PM to 4:00 PM on working days. It is advisable to schedule an appointment through the school office or via email to ensure the teacher&apos;s availability."
   }
 ];
 
@@ -232,7 +230,7 @@ export default function ParentZonePage() {
                     <AcademicCapIcon className="h-8 w-8 text-purple-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Student Progress</h3>
-                  <p className="text-sm text-gray-600 mb-4">Track your child's academic performance</p>
+                  <p className="text-sm text-gray-600 mb-4">Track your child&apos;s academic performance</p>
                   <button className="btn-primary w-full">View Progress</button>
                 </div>
                 <div className="card p-6 text-center">
@@ -434,7 +432,7 @@ export default function ParentZonePage() {
                       </div>
                       <div>
                         <label htmlFor="childName" className="block text-sm font-medium text-gray-700 mb-2">
-                          Child's Name *
+                          Child&apos;s Name *
                         </label>
                         <input
                           type="text"

@@ -6,7 +6,6 @@ import {
   DocumentTextIcon,
   BookOpenIcon,
   ComputerDesktopIcon,
-  AcademicCapIcon,
   CalendarDaysIcon,
   ArrowDownTrayIcon,
   PlayIcon,

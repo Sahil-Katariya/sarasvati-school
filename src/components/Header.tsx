@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon, PhoneIcon, EnvelopeIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import { useClientOnly, useScrollDetection } from '@/hooks/useClientOnly';
+import Image from 'next/image';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -158,11 +159,7 @@ export default function Header() {
                 <div className="flex items-center space-x-4">
                   <div className="relative">
                     <div className="h-14 w-14 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105 bg-white">
-                      <img
-                      src="/favicon.ico"
-                      alt="Sarasvati School Logo"
-                      className="h-10 w-10"
-                      />
+                      <Image src="./favicon.ico" alt="Sarasvati_School_Logo" width={100} height={100} />
                     </div>
                     <div className="absolute -top-1 -right-1 h-4 w-4 bg-yellow-400 rounded-full flex items-center justify-center">
                       <span className="text-xs font-bold text-gray-800">✨</span>

@@ -147,7 +147,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Principal's Message */}
+      {/* Principal&apos;s Message */}
       <section className="section-padding">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">

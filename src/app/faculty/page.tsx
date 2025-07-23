@@ -5,7 +5,6 @@ import {
   GlobeAltIcon,
   LanguageIcon,
   PaintBrushIcon,
-  MusicalNoteIcon,
   HeartIcon,
   UserGroupIcon,
   BookOpenIcon
@@ -263,7 +262,7 @@ export default function FacultyPage() {
               Join Our Teaching Community
             </h2>
             <p className="mt-4 text-lg text-blue-100">
-              Are you passionate about education? We're always looking for dedicated educators
+              Are you passionate about education? We&apos;re always looking for dedicated educators
             </p>
             <div className="mt-10">
               <a

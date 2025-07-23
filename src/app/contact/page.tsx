@@ -57,7 +57,7 @@ const departments = [
     description: "For fee payments, financial queries, and account-related matters"
   },
   {
-    name: "Principal's Office",
+    name: "Principal&apos;s Office",
     icon: UserIcon,
     phone: contactInfo.phone.main,
     email: contactInfo.email.principal,
@@ -119,7 +119,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Get in touch with us for any queries, admissions, or support. 
-              We're here to help you and your child succeed.
+              We&apos;re here to help you and your child succeed.
             </p>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function ContactPage() {
               Send us a Message
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Fill out the form below and we'll get back to you as soon as possible
+              Fill out the form below and we&apos;ll get back to you as soon as possible
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -262,7 +262,7 @@ export default function ContactPage() {
                 <CheckCircleIcon className="h-16 w-16 text-green-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-semibold text-gray-900 mb-2">Message Sent!</h3>
                 <p className="text-gray-600">
-                  Thank you for contacting us. We'll get back to you within 24 hours.
+                  Thank you for contacting us. We&apos;ll get back to you within 24 hours.
                 </p>
               </div>
             ) : (
